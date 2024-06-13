@@ -1,0 +1,345 @@
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+  .login_box{
+    height:500px;
+    box-shadow: unset !important;
+  }
+  .container .login_box{
+    width: 10px;
+    padding: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: -85px;
+    margin-left: -20px;
+  }
+  .login_box .left{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .login_box .right{
+    display:none;
+  }
+  .wave1, .wave2{
+    display: none;
+  }}
+  
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .login_box{
+    height:500px;
+  }
+  .container .login_box{
+    width: 400px;
+    height:500px;
+    padding: 175px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: -35px;
+    margin-left:-5px;
+  }
+  .container .login_box .right{
+    width: 100px;
+  }
+  .login_box .right{
+    display:none;
+  }}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .login_box{
+    height:500px;
+  }
+  .container .login_box{
+    width: 400px;
+    height:500px;
+    padding: 175px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: -35px;
+    margin-left:-5px;
+  }
+  .container .login_box .right{
+    width: 100px;
+  }
+  .login_box .right{
+    display:none;
+  }}
+  
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+
+  .login_box{
+    height:500px;
+  }
+  .container .login_box{
+    width: 450px;
+    height:500px;
+    padding: 175px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: -35px;
+    margin-left:-5px;
+  }
+  .left .contact{
+      margin-left:100% !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      height: 100%;
+      width:100%;
+      margin: auto;
+  }
+  .login_box .right{
+    display:none;
+  }}
+  .contact form{
+    width: unset !important;
+  }
+@media only screen and (min-width: 1024px) and (max-width: 1252px){
+  .login_box{
+    width: 900px !important;
+    height: 650px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 150px 0 150px 0;
+    box-shadow: 10px -4px 22px 8px rgba(131, 134, 131, 0.267);
+    display: flex;
+    overflow: hidden;
+  }
+}
+
+img{
+	max-width: 10%;
+}
+body{height:730px;}
+
+.login {
+    height: 730px;
+    width: 100%;
+    position: relative;
+}
+.login_box {
+    width: 1200px;
+    height: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 150px 0 150px 0;
+    box-shadow: 10px -4px 22px 8px rgba(131, 134, 131, 0.267);
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+  
+  width: 61%;
+  height: 100%;
+  padding: 25px 25px;
+  
+}
+.login_box .right{
+  width: 100%;
+  height: 100%  
+}
+.left .top_link a {
+    color: #74b71b;
+    font-weight: 400;
+}
+.left .top_link{
+  height: 20px
+}
+.left .contact{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width:100%;
+    margin: auto;
+}
+.contact form{
+  width: 60%;
+}
+.left h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.left input {
+    outline:none;
+    border: none;
+    width: 100%;
+    margin: 25px 0px;
+    border-bottom: 1px solid #74b71b;
+    padding: 7px 1px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+.left a{
+  color:#74b71b;
+  font-size: small;
+  justify-content: center;
+}
+
+.left .form-control{
+  box-shadow: none;
+  border-bottom: solid 1px #74b71b;
+  border-radius: none !important;
+}
+.left{
+	background:linear-gradient(#ffffff,#ffffff98);
+}
+
+.password-wrapper {
+    position: relative;
+}
+.password-wrapper input[type="password"] {
+    padding-right: 30px; /* Adjust the value based on the icon size and spacing you desire */
+}
+.password-wrapper i {
+    position: absolute;
+    top: 50%;
+    right: -7; /* Adjust the value based on the desired spacing */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+ .show-hide-password {
+            cursor: pointer;
+        }
+.password-hidden::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 2px;
+    background-color: #000;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.submit {
+    border: none;
+    padding: 20px 90px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    background: #74b71b;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgb(43, 26, 55);
+    box-shadow: 0px 9px 15px -11px rgb(23, 22, 24);
+}
+.submit:hover{
+  background-color: #12204d;
+  transition: .7s;
+}
+.logout {
+
+  border: none;
+  padding: 15px 70px;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+  margin-top: -11px;
+  margin-bottom:-10px;
+  background: #000000;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+  -moz-box-shadow: 0px 9px 15px -11px rgb(43, 26, 55);
+
+}
+.logout:hover {transform: scale(1.09);
+  border-color: rgba(0, 0, 0, 0.08);
+  background-color:#74b71b;
+  box-shadow: 6px 8px 6px -6px #4f5cd2a6;
+}
+
+.logout-admin{
+  border: none;
+  padding: 5px 30px;
+  border-radius: 50px;
+  display: block;
+  margin-right:20px ;
+  margin-top: 15px;
+  background: #74b71b;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+  -moz-box-shadow: 0px 9px 15px -11px rgb(43, 26, 55);
+
+}
+.logout-admin:hover{transform: scale(1.09);
+  border-color: rgba(0, 0, 0, 0.08);
+  background-color:#74b71b;
+  box-shadow: 6px 8px 6px -6px #4f5cd2a6;
+  }
+
+
+
+.right {
+	background: linear-gradient(50.38deg, rgba(234, 230, 231, 0.7) 0%, rgba(115, 183, 27, 0.278)
+  100%),url('/img/lab.jpg');
+	color: #fff;
+	position: relative;
+}
+
+.right .right-text{
+  height: 100%;
+  position: relative;
+  transform: translate(0%, 45%);
+}
+.right-text h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color:whitesmoke;
+}
+.right-text h5{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
+
+
+.wave1 {
+  width: 100%;
+  height: auto; /* Sesuaikan tinggi gelombang sesuai keinginan */
+  overflow: hidden;
+  pointer-events: none; /* Mencegah elemen SVG mengganggu interaksi dengan elemen di bawahnya */
+  z-index: -1; /* Menempatkan gelombang di belakang konten */
+    transform: scaleY(-1); /* Membalikkan gelombang agar berada tepat di bawah */
+}
+
+.wave2{
+  width: 100%;
+  height: auto; /* Sesuaikan tinggi gelombang sesuai keinginan */
+  overflow: hidden;
+  pointer-events: none; /* Mencegah elemen SVG mengganggu interaksi dengan elemen di bawahnya */
+  z-index: -1;
+  padding-top: 3%;
+  position: fixed; /* Atau position: absolute; */
+  bottom: 0;
+
+}
